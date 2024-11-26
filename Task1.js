@@ -23,4 +23,23 @@ document.querySelectorAll('.apply-btn').forEach(button => {
       });
     });
   });
+
+// JavaScript to handle optional smooth scrolling on button click (if needed)
+document.addEventListener('DOMContentLoaded', () => {
+  const cardsContainer = document.querySelector('.testimonial-cards');
+
+  let startX;
+
+  cardsContainer.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX; 
+  });
+
+  cardsContainer.addEventListener('touchmove', (e) => {
+      const endX = e.touches[0].clientX; 
+      const diffX = startX - endX; 
+      cardsContainer.scrollLeft += diffX;
+      startX = endX; 
+  });
+});
+
   
