@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pay Off Credit Cards</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="Task1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
   <!-- Header Section -->
@@ -29,25 +32,29 @@
       
 
     <div class="container">
-        <h1 style="color: black;"><strong>Pay off Credit Cards</strong></h1>
-        <p style="color: black;">with a single monthly payment</p>
-        
+      <h1 class="heading">
+        <strong>Pay off Credit Cards</strong></h1>
+        <p class="subheading ">with a single monthly payment</p>
       
-      <div class="benefits">
-        <label>
-          <input type="checkbox" checked> Credit line up to <strong>$8,000<sup>1</sup></strong>
-        </label>
-        <label>
-          <input type="checkbox" checked> No impact on the score to check rates
-        </label>
-        <label>
-          <input type="checkbox" checked> Sign up in <strong>2 mins</strong>
-        </label>
-      </div>
+  <!-- Benefits Section -->
+  <div class="benefits">
+    <label>
+      <input type="checkbox" checked>
+      Credit line up to <strong>$8,000<sup>1</sup></strong>
+    </label>
+    <label>
+      <input type="checkbox" checked>
+      No impact score to check rates
+    </label>
+    <label>
+      <input type="checkbox" checked>
+      Sign up in <strong>2 mins</strong>
+    </label>
+  </div>
+</div>
       
-
       <button class="get-started-btn">
-        Get Started   <i class="fas fa-arrow-right"></i>
+        Get Started   <i class="fas fa-arrow-circle-right"></i>
       </button>
     </div>
 
@@ -64,8 +71,8 @@
   <!-- Why Pay Off Section -->
   <section class="why-pay-off">
     <div class="container">
-        <p style="font-size: xx-large; display: block; width: 100%; border-bottom: 2px solid black; padding-bottom: 5px;">
-            <strong>Why pay off cards</strong> with Bright?
+        <p style="font-size: xx-large; display: block; width: 100%; margin-top: -40px; border-bottom: 2px solid black; padding-bottom: 5px;">
+           <strong>Why pay off cards</strong> with Bright?
         </p>
         
         <div class="features">
@@ -85,7 +92,7 @@
       
           <!-- Mobile-only Get Started Button -->
           <button class="get-started-btn">
-            Get Started     <i class="fas fa-arrow-right"></i>
+            Get Started     <i class="fas fa-arrow-circle-right"></i>
           </button>
         </div>
        
@@ -101,112 +108,138 @@
     <p style="font-size: xx-large; display: block; width: 100%; border-bottom: 2px solid black; padding-bottom: 5px;text-align: center;">
         <strong>How to pay off cards</strong> with Bright?
     </p>
-
     <div class="steps">
       <!-- Step 1 -->
       <div class="step">
-        <div class="step-content">
-          <img src="Image1.png" alt="Step 1">
-          <div class="step-text">
-            <h2>01</h2>
-            <h3>Download the App and check the</h3>
-            <h3>rates.</h3>
-            <p>Get the best rates and credit limit with a quick soft credit inquiry.</p>
-            <a href="#" class="apply-btn">Apply Now →</a>
-          </div>
+        <img src="Image1.png" alt="Step 1" class="step-image">
+        <div class="step-text">
+          <h2>01</h2>
+          <h3>Download the App and check the rates.</h3>
+          <p>Get the best rates and credit limit with a quick soft credit inquiry.</p>
+          <a href="#" class="apply-btn">Apply Now <span class="arrow-symbol">→</span></a>
         </div>
       </div>
       <hr>
-
+  
       <!-- Step 2 -->
       <div class="step reverse">
-        <div class="step-content">
-          <div class="step-text">
-            <h2>02</h2>
-            <h3>Get the credit line and choose</h3><h3>which cards to pay.</h3>
-            <p>Refinance multiple cards up to your credit limit; pay down and choose more.</p>
-            <a href="#" class="apply-btn">Apply Now →</a>
-          </div>
-       
+        <div class="step-text">
+          <h2>02</h2>
+          <h3>Get the credit line and choose which cards to pay.</h3>
+          <p>Refinance multiple cards up to your credit limit; pay down and choose more.</p>
+          <a href="#" class="apply-btn">Apply Now <span class="arrow-symbol">→</span></a>
         </div>
-        <img src="Image2.png" alt="Step 2">
+        <img src="Image2.png" alt="Step 2" class="step-image">
       </div>
       <hr>
-
+  
       <!-- Step 3 -->
       <div class="step">
-        <div class="step-content">
-          <img src="Image3.png" alt="Step 3">
-          <div class="step-text">
-            <h2>03</h2>
-            <h3>Make on-time payments and defeat debt.</h3>
-            <p>Choose how much to pay each month above your monthly minimum payment.</p>
-            <a href="#" class="apply-btn">Apply Now →</a>
-          </div>
+        <img src="Image3.png" alt="Step 3" class="step-image">
+        <div class="step-text">
+          <h2>03</h2>
+          <h3>Make on-time payments and defeat debt.</h3>
+          <p>Choose how much to pay each month above your monthly minimum payment.</p>
+          <a href="#" class="apply-btn">Apply Now <span class="arrow-symbol">→</span></a>
         </div>
-        <hr>
       </div>
     </div>
+    <button class="cta-mobile-button">
+      Get Started   <i class="fas fa-arrow-circle-right"></i>
+    </button>
   </section>
 
   <section class="testimonials">
     <h1 style="color: black;">Changing lives every day.</h1>
-     <p>See how Bright users<sup>*</sup> reached financial well-being.</p>
+    <p>See how Bright users<sup>*</sup> reached financial well-being.</p>
     <div class="testimonial-cards">
-      <div class="card">★★★★★<p>By paying off credit card debt, Bright helped me save a lot. I’d highly recommend Bright!</p><span>- Anna Bright</span></div>
-      <div class="card">★★★★★<p>Bright ensures you follow the best financial plan while paying off credit cards.</p><span>- Liam Helen</span></div>
-      <div class="card">★★★★★<p>If you’re looking to get your finances back in shape, Bright is perfect for you.</p><span>- Georgia Lopez</span></div>
-      <div class="card">★★★★★<p>I recommend the Bright App to anyone who wants to manage finances better.</p><span>- Todd Curry</span></div>
-      <div class="card">★★★★★<p>Thank you, Bright, for helping me save money and pay off my debt!</p><span>- Tara</span></div>
+        <div class="card">
+          <i class="fas fa-star rating"></i>
+            <i class="fas fa-star rating"></i>
+            <i class="fas fa-star rating"></i>
+            <i class="fas fa-star rating"></i>
+            <i class="fas fa-star rating"></i>
+            <p>To paying off credit card debt, Bright helped me save a lot. I’d highly recommend Bright!</p>
+            <span style="color: black;">Anna Bright</span>
+        </div>
+        <div class="card">
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+            <p>Bright money is willing to invest their time and get you on financial plan Increase your score.</p>
+            <span style="color: black;">Liam Helen</span>
+        </div>
+        <div class="card">
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+            <p>If you’re looking to get your score better this is the App that will help and guid you better score in few months</p>
+            <span style="color: black;">Georgia Lopez</span>
+        </div>
+        <div class="card">
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+            <p>I recommend the Bright App to everybody.It helped me cut down on my credit card help me save for car.</p>
+            <span style="color: black;">Todd Curry</span>
+        </div>
+        <div class="card">
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+          <i class="fas fa-star rating"></i>
+            <p>Thank you, Bright, for helping me improve my credit and eliminating my debit</p>
+            <span style="color: black;">Tara</span>
+        </div>
     </div>
-  </section>
-
-  <section class="faq">
-    <h2>Frequently asked questions</h2>
-    <hr>
-    <div class="faq-item">
-      <div class="faq-question">
-        <p>Can I pay off or close my account anytime?</p>
-        <span class="toggle-symbol">✔</span>
-      </div>
-      <div class="faq-answer">
-        <p>Yes, you can pay off or close your account at any time without penalties.</p>
-      </div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-question">
-        <p>Do I need to pay interest fees?</p>
-        <span class="toggle-symbol">X</span>
-      </div>
-      <div class="faq-answer">
-        <p>No, Bright does not charge interest fees on its services.</p>
-      </div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-question">
-        <p>Is there a hard pull on the credit report?</p>
-        <span class="toggle-symbol">X</span>
-      </div>
-      <div class="faq-answer">
-        <p>No, there is only a soft credit inquiry when you apply.</p>
-      </div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-question">
-        <p>Do you report to Equifax and TransUnion?</p>
-        <span class="toggle-symbol">✔</span>
-      </div>
-      <div class="faq-answer">
-        <p>Yes, Bright reports to Equifax and TransUnion to help improve your credit score.</p>
-      </div>
-    </div>
-  </section>
+</section>
   
+  
+<section class="faq">
+  <p style="font-size: xx-large; text-align: center;"><strong>Frequently asked</strong> questions</p>
+  <div class="faq-item">
+    <hr>
+    <div class="faq-question">
+      <p>Can I pay off or close my account anytime?</p>
+      <span class="toggle-symbol">✔</span>
+    </div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-question">
+      <p>Do I need to pay interest fees?</p>
+      <span class="toggle-symbol">X</span>
+    </div>
+  </div>
+  <div class="faq-item">
+
+    <div class="faq-question">
+      <p>Is there a hard pull on the credit report?</p>
+      <span class="toggle-symbol">X</span>
+    </div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-question">
+      <p>Do you report to Equifax and TransUnion?</p>
+      <span class="toggle-symbol">✔</span>
+    </div>
+  </div>
+  
+</section>
 
   <!-- Final Call-to-Action -->
  <section class="cta">
   <div class="cta-content">
     <h2>Crush Debt Today<sup>1</sup> <span class="cta-line-break">with Bright</span></h2>
+    <button class="cta-mobile-button">
+      Get Started   <i class="fas fa-arrow-circle-right"></i>
+    </button>
     <img src="lastimage.png" alt="Crush Debt Image">
   </div>
 </section>
